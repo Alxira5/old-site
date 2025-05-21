@@ -1,0 +1,78 @@
+baseurl: /old-site/
+url: https://alxira5.github.io/old-site
+domain: alxira5.github.io
+
+title: Alxira5 Archive
+
+lang: es
+
+locale: es_US
+
+author:
+  name: Guillermo Brito
+  picture: /assets/images/alxira5.jpg
+  twitter: Alxira5
+  url: https://alxira5.vercel.app/
+  email: alxira5@gmail.com
+
+description: >-
+  Un archivo del antiguo blog de Alxira5, o conocido anteriormente como
+  Mahibito the Gamer.
+
+tagline: Archivo del antiguo blog de Alxira5.
+
+logo: /assets/images/avatar.svg
+
+twitter:
+  username: Alxira5
+  cad: summary_large_image
+
+social:
+  name: Guillermo Brito
+  links:
+    - https://github.com/Alxira5
+    - https://www.youtube.com/@Alxira5
+    - https://soundcloud.com/alxira5
+    - https://www.instagram.com/alxira5dev/
+    - https://x.com/Alxira5
+
+feed:
+  path: /blog/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/social-card.png
+        alt: Social card
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+minima:
+  social_links:
+    - { platform: github,     title: GitHub,     user_url: "https://github.com/Alxira5" }
+    - { platform: youtube,    title: YouTube,    user_url: "https://www.youtube.com/@Alxira5" }
+    - { platform: soundcloud, title: SoundCloud, user_url: "https://soundcloud.com/alxira5" }
+    - { platform: instagram,  title: Instagram,  user_url: "https://www.instagram.com/alxira5dev/" }
+    - { platform: x,          title: X,          user_url: "https://x.com/Alxira5" }
+
+exclude:
+  - README.md
+  - LICENSE
+  - ASSET_LICENSE
+  - .sass-cache/
+  - .jekyll-cache/
+  - .vercel/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
